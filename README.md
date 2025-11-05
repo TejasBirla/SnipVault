@@ -1,7 +1,7 @@
 # 🧩 SnipVault — Code Snippet Manager & Sharing Platform
 
 SnipVault is a modern **code snippet management and sharing platform** built for developers who want to **store, organize, and share** reusable pieces of code in one place.  
-Designed with simplicity and productivity in mind, it provides a beautiful interface for writing, tagging, and exploring snippets across multiple languages.
+Designed with simplicity and productivity in mind, it provides a beautiful interface for writing, tagging, and exploring snippets across multiple languages
 
 ---
 
