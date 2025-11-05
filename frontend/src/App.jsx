@@ -1,61 +1,7 @@
-// import React from "react";
-// import { Routes, Route } from "react-router-dom";
-// import Navbar from "./components/Home/Navbar.jsx";
-// import Hero from "./components/Home/Hero.jsx";
-// import Footer from "./components/Home/Footer.jsx";
-// import Login from "./components/auth/Login.jsx";
-// import Signup from "./components/auth/Signup.jsx";
-// import ExampleSnip from "./components/snippets/ExampleSnip.jsx";
-// import Dashboard from "./components/pages/Dashboard.jsx";
-// import CreateSnip from "./components/snippets/CreateSnip.jsx";
-// import MySnip from "./components/snippets/MySnip.jsx";
-// import EditSnip from "./components/snippets/EditSnip.jsx";
-// import ExploreSnip from "./components/snippets/ExploreSnip.jsx";
-// import ViewSnip from "./components/snippets/ViewSnip.jsx";
-// import "devicon/devicon.min.css";
-
-// export default function App() {
-//   return (
-//     <div data-theme="light">
-//       <Routes>
-//         {/* Main layout (with Navbar + Footer) */}
-//         <Route
-//           path="/"
-//           element={
-//             <>
-//               <Navbar />
-//               <Hero />
-//               <Footer />
-//             </>
-//           }
-//         />
-//         <Route
-//           path="/example/snip"
-//           element={
-//             <>
-//               <Navbar />
-//               <ExampleSnip />
-//               <Footer />
-//             </>
-//           }
-//         />
-//         <Route path="/login" element={<Login />} />
-//         <Route path="/signup" element={<Signup />} />
-//         <Route path="/dashboard" element={<Dashboard />} />
-//         <Route path="/create/snippets" element={<CreateSnip />} />
-//         <Route path="/my-snippets" element={<MySnip />} />
-//         <Route path="/edit-snippet/:id" element={<EditSnip />} />
-//         <Route path="/explore-snippets" element={<ExploreSnip />} />
-//         <Route path="/view-snippet/:id" element={<ViewSnip />} />
-//       </Routes>
-//     </div>
-//   );
-// }
-
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/home/Navbar.jsx"
-import Hero from "./components/Home/Hero.jsx";
+import Hero from "./components/home/Hero.jsx";
 import Footer from "./components/home/Footer.jsx";
 import Login from "./components/auth/Login.jsx";
 import Signup from "./components/auth/Signup.jsx";
