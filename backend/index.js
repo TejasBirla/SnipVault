@@ -15,6 +15,11 @@ connectDB();
 app.use("/api/user", userRouter);
 app.use("/api/snippets", snipRouter);
 
+
+app.get("/health", (req, res) => {
+  res.status(200).json({ status: "ok" });
+});
+
 const port = process.env.PORT;
 app.listen(port, () => {
   console.log(`Listening at port : http://localhost:${port}`);
